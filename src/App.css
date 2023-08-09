@@ -1,0 +1,21 @@
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+    fill: red;
+  }
+  
+  100% {
+    fill: blue;
+    transform: rotate(360deg);
+  }
+}
+
+.box {
+  background-color: red;
+}
+
+.rotate {
+  animation: move .8s ease 0s infinite normal;
+  fill: red ;
+}
+.st0{fill:#000000;}
